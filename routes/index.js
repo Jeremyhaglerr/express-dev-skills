@@ -3,10 +3,10 @@ const router = Router()
 
 /* GET home page. */
 // localhost:3000
-router.get('/', function(req, res) {
+router.get('/', function (req, res) {
   res.render('index', { title: 'Express Skills List Lab' })
 })
 
-export { 
+export {
   router
 }
